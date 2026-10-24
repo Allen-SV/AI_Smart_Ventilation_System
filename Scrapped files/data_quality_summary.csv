@@ -1,0 +1,19 @@
+file,column,count,missing,min,p01,median,p99,max
+data\training_data_2.csv,Room CO2 (ppm),4089,0,426.994,431.994,699.99,1617.3359999999998,1727.974
+data\training_data_2.csv,Temperature (°C),4089,0,19.699,19.923,20.882,21.939,22.009
+data\training_data_2.csv,Relative Humidity (%),4089,0,28.993,29.787,37.342,51.30696,52.454
+data\training_data_2.csv,Pressure (mbar),4089,0,986.646,986.76728,1009.066,1012.9725999999999,1013.151
+data\training_data_2.csv,Supply airflow (l/s),4089,0,-4.165716171264648,-0.3046362137794494,15.87340641021728,48.898335113525384,66.01154327392578
+data\training_data_2.csv,Extract airflow (l/s),4089,0,-0.0745064541697502,0.8197485241600053,15.93429183959961,48.207976837158206,58.30515289306641
+data\training_data_2.csv,Supply air CO2 (ppm),4089,0,403.0,406.0,428.0,550.0,564.0
+data\training_data_2.csv,Exhaust air CO2 (ppm),4089,0,398.0,404.0,672.0,1524.9599999999991,1646.0
+data\training_data_2.csv,Occupant count,4089,0,0.0,0.0,1.0,4.0,4.0
+data\ventilation_test.csv,Room CO2 (ppm),1430,0,427.994,427.994,856.487,1367.5300000000002,1419.979
+data\ventilation_test.csv,Temperature (°C),1430,0,19.656,19.68977,20.981,22.348,22.433
+data\ventilation_test.csv,Relative Humidity (%),1430,0,24.127,24.32064,33.166,38.117,38.667
+data\ventilation_test.csv,Pressure (mbar),1430,0,998.635,998.7245800000001,1007.469,1012.63,1012.69
+data\ventilation_test.csv,Supply airflow (l/s),1430,0,-0.4405183494091034,0.687305034622552,10.045821189880375,28.53684423446655,64.94943237304688
+data\ventilation_test.csv,Extract airflow (l/s),1430,0,-0.594770073890686,0.4698248273134245,10.004505634307861,28.286711692810062,58.35587692260742
+data\ventilation_test.csv,Supply air CO2 (ppm),1430,0,405.0,408.0,434.0,486.0,494.0
+data\ventilation_test.csv,Exhaust air CO2 (ppm),1430,0,410.0,411.0,848.0,1367.9700000000003,1410.0
+data\ventilation_test.csv,Occupant count,1430,0,0.0,0.0,1.0,4.0,4.0

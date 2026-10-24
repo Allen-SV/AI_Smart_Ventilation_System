@@ -1,0 +1,73 @@
+target,actual_class,predicted_class,count
+Room CO2 (ppm),Low,Low,194
+Room CO2 (ppm),Low,Medium,0
+Room CO2 (ppm),Low,High,0
+Room CO2 (ppm),Medium,Low,3
+Room CO2 (ppm),Medium,Medium,537
+Room CO2 (ppm),Medium,High,3
+Room CO2 (ppm),High,Low,0
+Room CO2 (ppm),High,Medium,4
+Room CO2 (ppm),High,High,671
+Temperature (°C),Low,Low,458
+Temperature (°C),Low,Medium,4
+Temperature (°C),Low,High,0
+Temperature (°C),Medium,Low,6
+Temperature (°C),Medium,Medium,328
+Temperature (°C),Medium,High,11
+Temperature (°C),High,Low,0
+Temperature (°C),High,Medium,12
+Temperature (°C),High,High,593
+Relative Humidity (%),Low,Low,1231
+Relative Humidity (%),Low,Medium,11
+Relative Humidity (%),Low,High,0
+Relative Humidity (%),Medium,Low,10
+Relative Humidity (%),Medium,Medium,160
+Relative Humidity (%),Medium,High,0
+Relative Humidity (%),High,Low,0
+Relative Humidity (%),High,Medium,0
+Relative Humidity (%),High,High,0
+Pressure (mbar),Low,Low,580
+Pressure (mbar),Low,Medium,0
+Pressure (mbar),Low,High,0
+Pressure (mbar),Medium,Low,1
+Pressure (mbar),Medium,Medium,504
+Pressure (mbar),Medium,High,4
+Pressure (mbar),High,Low,0
+Pressure (mbar),High,Medium,3
+Pressure (mbar),High,High,320
+Supply airflow (l/s),Low,Low,542
+Supply airflow (l/s),Low,Medium,18
+Supply airflow (l/s),Low,High,1
+Supply airflow (l/s),Medium,Low,17
+Supply airflow (l/s),Medium,Medium,673
+Supply airflow (l/s),Medium,High,7
+Supply airflow (l/s),High,Low,2
+Supply airflow (l/s),High,Medium,6
+Supply airflow (l/s),High,High,146
+Extract airflow (l/s),Low,Low,540
+Extract airflow (l/s),Low,Medium,18
+Extract airflow (l/s),Low,High,1
+Extract airflow (l/s),Medium,Low,17
+Extract airflow (l/s),Medium,Medium,677
+Extract airflow (l/s),Medium,High,6
+Extract airflow (l/s),High,Low,2
+Extract airflow (l/s),High,Medium,5
+Extract airflow (l/s),High,High,146
+Supply air CO2 (ppm),Low,Low,246
+Supply air CO2 (ppm),Low,Medium,12
+Supply air CO2 (ppm),Low,High,0
+Supply air CO2 (ppm),Medium,Low,13
+Supply air CO2 (ppm),Medium,Medium,487
+Supply air CO2 (ppm),Medium,High,16
+Supply air CO2 (ppm),High,Low,0
+Supply air CO2 (ppm),High,Medium,15
+Supply air CO2 (ppm),High,High,623
+Exhaust air CO2 (ppm),Low,Low,182
+Exhaust air CO2 (ppm),Low,Medium,1
+Exhaust air CO2 (ppm),Low,High,0
+Exhaust air CO2 (ppm),Medium,Low,4
+Exhaust air CO2 (ppm),Medium,Medium,459
+Exhaust air CO2 (ppm),Medium,High,6
+Exhaust air CO2 (ppm),High,Low,0
+Exhaust air CO2 (ppm),High,Medium,6
+Exhaust air CO2 (ppm),High,High,754

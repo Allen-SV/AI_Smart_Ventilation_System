@@ -1,0 +1,28 @@
+target,actual_class,predicted_class,count
+Room CO2 (ppm),Low,Low,181
+Room CO2 (ppm),Low,Medium,1
+Room CO2 (ppm),Low,High,0
+Room CO2 (ppm),Medium,Low,18
+Room CO2 (ppm),Medium,Medium,496
+Room CO2 (ppm),Medium,High,29
+Room CO2 (ppm),High,Low,0
+Room CO2 (ppm),High,Medium,23
+Room CO2 (ppm),High,High,652
+Temperature (°C),Low,Low,435
+Temperature (°C),Low,Medium,15
+Temperature (°C),Low,High,0
+Temperature (°C),Medium,Low,25
+Temperature (°C),Medium,Medium,292
+Temperature (°C),Medium,High,28
+Temperature (°C),High,Low,0
+Temperature (°C),High,Medium,33
+Temperature (°C),High,High,572
+Relative Humidity (%),Low,Low,1194
+Relative Humidity (%),Low,Medium,40
+Relative Humidity (%),Low,High,0
+Relative Humidity (%),Medium,Low,35
+Relative Humidity (%),Medium,Medium,131
+Relative Humidity (%),Medium,High,0
+Relative Humidity (%),High,Low,0
+Relative Humidity (%),High,Medium,0
+Relative Humidity (%),High,High,0

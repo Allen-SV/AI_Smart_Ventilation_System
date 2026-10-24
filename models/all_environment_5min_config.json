@@ -1,0 +1,31 @@
+{
+  "horizon_minutes": 5,
+  "targets": [
+    "Room CO2 (ppm)",
+    "Temperature (\u00b0C)",
+    "Relative Humidity (%)"
+  ],
+  "lags_minutes": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "selected_methods_by_validation_mae": {
+    "Room CO2 (ppm)": "trend_capped",
+    "Temperature (\u00b0C)": "persistence",
+    "Relative Humidity (%)": "persistence"
+  },
+  "train_rows": 3959,
+  "validation_rows": 792,
+  "holdout_rows": 1400,
+  "model": "MultiOutputRegressor(RandomForestRegressor)",
+  "random_forest": {
+    "n_estimators": 30,
+    "min_samples_leaf": 2,
+    "max_features": 0.8,
+    "random_state": 42
+  },
+  "classification_metrics": "Not applicable to continuous regression outputs; define separate classes before computing F1/precision/recall."
+}

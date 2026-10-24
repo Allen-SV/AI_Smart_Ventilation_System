@@ -1,0 +1,4 @@
+target,low_medium_cutpoint,medium_high_cutpoint,threshold_source,category_definition
+Room CO2 (ppm),553.992,869.987,training_data_2.csv only,Low <= first tertile; Medium > first and <= second tertile; High > second tertile
+Temperature (°C),20.743,21.122,training_data_2.csv only,Low <= first tertile; Medium > first and <= second tertile; High > second tertile
+Relative Humidity (%),35.546,38.79133333333333,training_data_2.csv only,Low <= first tertile; Medium > first and <= second tertile; High > second tertile

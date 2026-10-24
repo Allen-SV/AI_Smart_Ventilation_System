@@ -1,0 +1,12 @@
+metric,value,unit
+valid_holdout_samples,1412.0,samples
+forecast_horizon,5.0,minutes
+CO2_forecast_MAE,25.916166531984715,ppm
+CO2_forecast_RMSE,45.21655880639772,ppm
+persistence_baseline_MAE,34.73506858605117,ppm
+persistence_baseline_RMSE,60.30007835032468,ppm
+MAE_improvement_vs_persistence,25.389044596871564,%
+low_ventilation_unoccupied_actions,501.0,actions
+normal_ventilation_actions,508.0,actions
+high_ventilation_actions,403.0,actions
+critical_high_ventilation_actions,0.0,actions

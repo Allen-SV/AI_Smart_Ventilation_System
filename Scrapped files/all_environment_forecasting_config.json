@@ -1,0 +1,43 @@
+{
+  "forecast_horizon_minutes": 5,
+  "history_interval_minutes": 1,
+  "targets": [
+    "Room CO2 (ppm)",
+    "Temperature (\u00b0C)",
+    "Relative Humidity (%)",
+    "Pressure (mbar)",
+    "Supply airflow (l/s)",
+    "Extract airflow (l/s)",
+    "Supply air CO2 (ppm)",
+    "Exhaust air CO2 (ppm)"
+  ],
+  "validation_fraction": 0.2,
+  "selected_methods_by_validation_MAE": {
+    "Room CO2 (ppm)": "trend_capped",
+    "Temperature (\u00b0C)": "persistence",
+    "Relative Humidity (%)": "persistence",
+    "Pressure (mbar)": "persistence",
+    "Supply airflow (l/s)": "persistence",
+    "Extract airflow (l/s)": "persistence",
+    "Supply air CO2 (ppm)": "persistence",
+    "Exhaust air CO2 (ppm)": "persistence"
+  },
+  "trend_adjustment_caps_by_target": {
+    "Room CO2 (ppm)": 75.0,
+    "Temperature (\u00b0C)": 0.3500000000000014,
+    "Relative Humidity (%)": 1.9500000000000028,
+    "Pressure (mbar)": 0.5632499999999521,
+    "Supply airflow (l/s)": 85.8994611501688,
+    "Extract airflow (l/s)": 84.16906011104581,
+    "Supply air CO2 (ppm)": 40.0,
+    "Exhaust air CO2 (ppm)": 175.0
+  },
+  "cap_method": "Room CO2 uses the previously tested fixed +/-75 ppm; other caps are the 95th percentile of absolute 5-minute trend adjustments in the earlier training segment.",
+  "training_file": "data\\training_data_2.csv",
+  "holdout_file": "data\\ventilation_test.csv",
+  "occupancy_columns_not_used_as_targets_or_predictors": [
+    "Occupant count",
+    "Occupant count (ML estimate)"
+  ],
+  "note": "This is a deterministic trend-forecasting rule, not a fitted machine-learning estimator. Holdout data was not used to select methods or caps."
+}

@@ -1,0 +1,41 @@
+{
+  "horizon_minutes": 1,
+  "targets": [
+    "Room CO2 (ppm)",
+    "Temperature (\u00b0C)",
+    "Relative Humidity (%)",
+    "Pressure (mbar)",
+    "Supply airflow (l/s)",
+    "Extract airflow (l/s)",
+    "Supply air CO2 (ppm)",
+    "Exhaust air CO2 (ppm)"
+  ],
+  "lags_minutes": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "selected_methods_by_validation_mae": {
+    "Room CO2 (ppm)": "trend_capped",
+    "Temperature (\u00b0C)": "persistence",
+    "Relative Humidity (%)": "persistence",
+    "Pressure (mbar)": "persistence",
+    "Supply airflow (l/s)": "persistence",
+    "Extract airflow (l/s)": "persistence",
+    "Supply air CO2 (ppm)": "persistence",
+    "Exhaust air CO2 (ppm)": "persistence"
+  },
+  "train_rows": 4011,
+  "validation_rows": 803,
+  "holdout_rows": 1412,
+  "model": "MultiOutputRegressor(RandomForestRegressor)",
+  "random_forest": {
+    "n_estimators": 30,
+    "min_samples_leaf": 2,
+    "max_features": 0.8,
+    "random_state": 42
+  },
+  "classification_metrics": "Not applicable to continuous regression outputs; define separate classes before computing F1/precision/recall."
+}

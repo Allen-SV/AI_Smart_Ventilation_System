@@ -1,0 +1,33 @@
+model,target,MAE,RMSE
+Persistence baseline,Room CO2 (ppm),31.783905769231247,49.297271482411276
+Persistence baseline,Temperature (°C),0.0497106353663597,0.06426171408620607
+Persistence baseline,Relative Humidity (%),0.38299373121255265,0.5440234356108422
+Persistence baseline,Pressure (mbar),0.05356581163329555,0.0680155658901915
+Persistence baseline,Supply airflow (l/s),2.7143266416970477,4.506409108308489
+Persistence baseline,Extract airflow (l/s),2.660784710866382,4.630034427792467
+Persistence baseline,Supply air CO2 (ppm),3.252612206768067,4.380426351465843
+Persistence baseline,Exhaust air CO2 (ppm),47.30213496095373,68.5546133793005
+Random Forest,Room CO2 (ppm),62.00384909440605,101.102589001598
+Random Forest,Temperature (°C),0.43943745138883394,0.4948439380142471
+Random Forest,Relative Humidity (%),6.3865320011941185,7.309544313608256
+Random Forest,Pressure (mbar),3.8183543993424625,5.084858327706572
+Random Forest,Supply airflow (l/s),6.137098968785827,7.853756060213146
+Random Forest,Extract airflow (l/s),5.974044787864041,7.540865396339118
+Random Forest,Supply air CO2 (ppm),23.182448859377317,26.330509450228803
+Random Forest,Exhaust air CO2 (ppm),67.4883088163212,93.21919422215662
+Persistence baseline,Room CO2 (ppm),35.02351203107446,60.5576904521989
+Persistence baseline,Temperature (°C),0.06265317066127725,0.09668725887240343
+Persistence baseline,Relative Humidity (%),0.44003092376556097,0.6477235926161667
+Persistence baseline,Pressure (mbar),0.07006834114543811,0.08963670643583538
+Persistence baseline,Supply airflow (l/s),2.110535616357494,4.466433337347838
+Persistence baseline,Extract airflow (l/s),2.002489626222356,4.373775422549035
+Persistence baseline,Supply air CO2 (ppm),3.594377466031577,5.451679572335223
+Persistence baseline,Exhaust air CO2 (ppm),38.589907281071305,67.74213751104296
+Random Forest,Room CO2 (ppm),50.07004702055241,81.76043342800881
+Random Forest,Temperature (°C),0.49463516153544146,0.6154008069961117
+Random Forest,Relative Humidity (%),8.907009557835089,9.386528812063194
+Random Forest,Pressure (mbar),4.2780656675869375,5.5445816826853696
+Random Forest,Supply airflow (l/s),8.171184183358184,9.489585374026921
+Random Forest,Extract airflow (l/s),8.139523859221946,9.448120117552754
+Random Forest,Supply air CO2 (ppm),18.1635877004443,21.179096193079506
+Random Forest,Exhaust air CO2 (ppm),55.78574373676595,81.53518907847626

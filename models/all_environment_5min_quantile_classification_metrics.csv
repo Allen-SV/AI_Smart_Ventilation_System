@@ -1,0 +1,4 @@
+target,n,accuracy,macro_f1_all_defined,macro_f1_present_actual_classes,weighted_precision,weighted_recall,weighted_f1,actual_classes_present,actual_high_support,note
+Room CO2 (ppm),1400,0.9492857142857143,0.9483303510545392,0.9483303510545392,0.9498083261347159,0.9492857142857143,0.9491220140265041,"Low, Medium, High",675,
+Temperature (°C),1400,0.9278571428571428,0.9193254313101665,0.9193254313101665,0.9275744732675678,0.9278571428571428,0.9276604364746405,"Low, Medium, High",605,
+Relative Humidity (%),1400,0.9464285714285714,0.5823324671006264,0.8734987006509396,0.9471622846103597,0.9464285714285714,0.9467716093908369,"Low, Medium",0,High category has no actual holdout samples; its performance is not evaluated.

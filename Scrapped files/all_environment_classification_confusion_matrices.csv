@@ -1,0 +1,33 @@
+target,actual_class,Predicted: Low,Predicted: Moderate,Predicted: High,Predicted: Cool,Predicted: Comfortable-low,Predicted: Comfortable-high,Predicted: Warm,Predicted: Very-dry,Predicted: Dry,Predicted: Typical,Predicted: Humid,Predicted: Very-humid,Predicted: Moderately-low,Predicted: Moderately-high,Predicted: Medium,Predicted: Very-high,Predicted: Elevated
+Room CO2 (ppm),Low,593.0,7.0,0.0,,,,,,,,,,,,,,
+Room CO2 (ppm),Moderate,6.0,397.0,9.0,,,,,,,,,,,,,,
+Room CO2 (ppm),High,0.0,6.0,394.0,,,,,,,,,,,,,,
+Temperature (°C),Cool,,,,189.0,0.0,0.0,0.0,,,,,,,,,,
+Temperature (°C),Comfortable-low,,,,3.0,1220.0,0.0,0.0,,,,,,,,,,
+Temperature (°C),Comfortable-high,,,,0.0,0.0,0.0,0.0,,,,,,,,,,
+Temperature (°C),Warm,,,,0.0,0.0,0.0,0.0,,,,,,,,,,
+Relative Humidity (%),Very-dry,,,,,,,,469.0,3.0,0.0,0.0,0.0,,,,,
+Relative Humidity (%),Dry,,,,,,,,2.0,938.0,0.0,0.0,0.0,,,,,
+Relative Humidity (%),Typical,,,,,,,,0.0,0.0,0.0,0.0,0.0,,,,,
+Relative Humidity (%),Humid,,,,,,,,0.0,0.0,0.0,0.0,0.0,,,,,
+Relative Humidity (%),Very-humid,,,,,,,,0.0,0.0,0.0,0.0,0.0,,,,,
+Pressure (mbar),Low,0.0,,0.0,,,,,,,,,,0.0,0.0,,,
+Pressure (mbar),Moderately-low,0.0,,0.0,,,,,,,,,,231.0,1.0,,,
+Pressure (mbar),Moderately-high,0.0,,7.0,,,,,,,,,,0.0,830.0,,,
+Pressure (mbar),High,0.0,,337.0,,,,,,,,,,0.0,6.0,,,
+Supply airflow (l/s),Low,1196.0,,1.0,,,,,,,,,,,,5.0,1.0,
+Supply airflow (l/s),Medium,5.0,,0.0,,,,,,,,,,,,202.0,0.0,
+Supply airflow (l/s),High,1.0,,0.0,,,,,,,,,,,,0.0,0.0,
+Supply airflow (l/s),Very-high,1.0,,0.0,,,,,,,,,,,,0.0,0.0,
+Extract airflow (l/s),Low,1196.0,,1.0,,,,,,,,,,,,6.0,0.0,
+Extract airflow (l/s),Medium,6.0,,0.0,,,,,,,,,,,,202.0,0.0,
+Extract airflow (l/s),High,1.0,,0.0,,,,,,,,,,,,0.0,0.0,
+Extract airflow (l/s),Very-high,0.0,,0.0,,,,,,,,,,,,0.0,0.0,
+Supply air CO2 (ppm),Low,1412.0,0.0,0.0,,,,,,,,,,,,,,0.0
+Supply air CO2 (ppm),Moderate,0.0,0.0,0.0,,,,,,,,,,,,,,0.0
+Supply air CO2 (ppm),Elevated,0.0,0.0,0.0,,,,,,,,,,,,,,0.0
+Supply air CO2 (ppm),High,0.0,0.0,0.0,,,,,,,,,,,,,,0.0
+Exhaust air CO2 (ppm),Low,276.0,5.0,0.0,,,,,,,,,,,,,,0.0
+Exhaust air CO2 (ppm),Moderate,6.0,331.0,0.0,,,,,,,,,,,,,,7.0
+Exhaust air CO2 (ppm),Elevated,0.0,7.0,9.0,,,,,,,,,,,,,,327.0
+Exhaust air CO2 (ppm),High,0.0,0.0,435.0,,,,,,,,,,,,,,9.0

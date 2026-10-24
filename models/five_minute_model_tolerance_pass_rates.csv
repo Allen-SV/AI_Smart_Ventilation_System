@@ -1,0 +1,14 @@
+Target,Tolerance,Unit,Valid forecasts,Passed,Failed,Pass rate (%)
+Room CO2 (ppm),15,ppm,1400,760,640,54.28571429
+Room CO2 (ppm),20,ppm,1400,855,545,61.07142857
+Room CO2 (ppm),30,ppm,1400,1028,372,73.42857143
+Room CO2 (ppm),40,ppm,1400,1131,269,80.78571429
+Room CO2 (ppm),50,ppm,1400,1194,206,85.28571429
+Temperature (°C),0.05,°C,1400,817,583,58.35714286
+Temperature (°C),0.1,°C,1400,1178,222,84.14285714
+Temperature (°C),0.2,°C,1400,1321,79,94.35714286
+Temperature (°C),0.5,°C,1400,1397,3,99.78571429
+Relative Humidity (%),0.5,percentage points,1400,988,412,70.57142857
+Relative Humidity (%),1,percentage points,1400,1261,139,90.07142857
+Relative Humidity (%),2,percentage points,1400,1377,23,98.35714286
+Relative Humidity (%),3,percentage points,1400,1397,3,99.78571429
